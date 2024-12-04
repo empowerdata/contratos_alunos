@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "contrato-alunos"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius Rocha Lima <vinicius@empowerdata.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+postmarker = "^1.0"
+sqlalchemy = "^2.0.36"
+requests = "^2.32.3"
+pymysql = "^1.1.1"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
